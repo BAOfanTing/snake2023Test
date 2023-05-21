@@ -1,3 +1,4 @@
+[中文文档请点击这里](https://github.com/BAOfanTing/snake2023Test/edit/main/README_cn.md)
 # snake2023Test
 
 ## 1. Installation environment and preparation of data
