@@ -12,7 +12,7 @@ pip install -r requriments.txt
 
 ### Delete some codes from the Timm library
 
-Find the path python3.8/site-packages/tim/models/factory. py and remove the code in line 71'pretrained_cfg=pretrained_cfg'
+Find the path python3.8/site-packages/timm/models/factory. py and remove the code in line 71'pretrained_cfg=pretrained_cfg'
 ![](2023-05-17-21-34-42.png)
 
 
