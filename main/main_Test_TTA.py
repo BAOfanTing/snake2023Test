@@ -371,6 +371,7 @@ if __name__ == '__main__':
     #torch.cuda.set_device(config.LOCAL_RANK)\
 ###
     torch.cuda.set_device(0)
+    #If your operating system is Windows, 'backend'use gloo
     torch.distributed.init_process_group(backend='nccl', init_method='env://', world_size=world_size, rank=rank)
     torch.distributed.barrier()
 
